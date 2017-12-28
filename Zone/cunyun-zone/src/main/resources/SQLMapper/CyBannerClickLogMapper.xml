@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cunyun.zone.server.mapper.CyBannerClickLogMapper" >
+  <resultMap id="BaseResultMap" type="cunyun.zone.server.entity.CyBannerClickLog" >
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="banner_id" property="bannerId" jdbcType="VARCHAR" />
+    <result column="twitter_id" property="twitterId" jdbcType="VARCHAR" />
+    <result column="uid" property="uid" jdbcType="VARCHAR" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="has_fee" property="hasFee" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    id, banner_id, twitter_id, uid, created_time, has_fee
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="cunyun.zone.server.entity.CyBannerClickLogExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from cy_banner_click_log
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from cy_banner_click_log
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from cy_banner_click_log
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="cunyun.zone.server.entity.CyBannerClickLogExample" >
+    delete from cy_banner_click_log
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="cunyun.zone.server.entity.CyBannerClickLog" >
+    insert into cy_banner_click_log (id, banner_id, twitter_id, 
+      uid, created_time, has_fee
+      )
+    values (#{id,jdbcType=INTEGER}, #{bannerId,jdbcType=VARCHAR}, #{twitterId,jdbcType=VARCHAR}, 
+      #{uid,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, #{hasFee,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cunyun.zone.server.entity.CyBannerClickLog" >
+    insert into cy_banner_click_log
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="bannerId != null" >
+        banner_id,
+      </if>
+      <if test="twitterId != null" >
+        twitter_id,
+      </if>
+      <if test="uid != null" >
+        uid,
+      </if>
+      <if test="createdTime != null" >
+        created_time,
+      </if>
+      <if test="hasFee != null" >
+        has_fee,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="bannerId != null" >
+        #{bannerId,jdbcType=VARCHAR},
+      </if>
+      <if test="twitterId != null" >
+        #{twitterId,jdbcType=VARCHAR},
+      </if>
+      <if test="uid != null" >
+        #{uid,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="hasFee != null" >
+        #{hasFee,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="cunyun.zone.server.entity.CyBannerClickLogExample" resultType="java.lang.Integer" >
+    select count(*) from cy_banner_click_log
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update cy_banner_click_log
+    <set >
+      <if test="record.id != null" >
+        id = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.bannerId != null" >
+        banner_id = #{record.bannerId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.twitterId != null" >
+        twitter_id = #{record.twitterId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.uid != null" >
+        uid = #{record.uid,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createdTime != null" >
+        created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.hasFee != null" >
+        has_fee = #{record.hasFee,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update cy_banner_click_log
+    set id = #{record.id,jdbcType=INTEGER},
+      banner_id = #{record.bannerId,jdbcType=VARCHAR},
+      twitter_id = #{record.twitterId,jdbcType=VARCHAR},
+      uid = #{record.uid,jdbcType=VARCHAR},
+      created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      has_fee = #{record.hasFee,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="cunyun.zone.server.entity.CyBannerClickLog" >
+    update cy_banner_click_log
+    <set >
+      <if test="bannerId != null" >
+        banner_id = #{bannerId,jdbcType=VARCHAR},
+      </if>
+      <if test="twitterId != null" >
+        twitter_id = #{twitterId,jdbcType=VARCHAR},
+      </if>
+      <if test="uid != null" >
+        uid = #{uid,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="hasFee != null" >
+        has_fee = #{hasFee,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cunyun.zone.server.entity.CyBannerClickLog" >
+    update cy_banner_click_log
+    set banner_id = #{bannerId,jdbcType=VARCHAR},
+      twitter_id = #{twitterId,jdbcType=VARCHAR},
+      uid = #{uid,jdbcType=VARCHAR},
+      created_time = #{createdTime,jdbcType=TIMESTAMP},
+      has_fee = #{hasFee,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

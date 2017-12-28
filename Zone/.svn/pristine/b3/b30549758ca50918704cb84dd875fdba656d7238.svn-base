@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cunyun.zone.server.mapper.CyBannerMapper" >
+  <resultMap id="BaseResultMap" type="cunyun.zone.server.entity.CyBanner" >
+    <id column="banner_id" property="bannerId" jdbcType="VARCHAR" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+    <result column="start_time" property="startTime" jdbcType="TIMESTAMP" />
+    <result column="end_time" property="endTime" jdbcType="TIMESTAMP" />
+    <result column="delivery_vip_level" property="deliveryVipLevel" jdbcType="VARCHAR" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="cunyun.zone.server.entity.CyBannerWithBLOBs" extends="BaseResultMap" >
+    <result column="content" property="content" jdbcType="LONGVARCHAR" />
+    <result column="click_url" property="clickUrl" jdbcType="LONGVARCHAR" />
+    <result column="delivery_topic_class" property="deliveryTopicClass" jdbcType="LONGVARCHAR" />
+    <result column="delivery_topic" property="deliveryTopic" jdbcType="LONGVARCHAR" />
+    <result column="delivery_rule_ext" property="deliveryRuleExt" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    banner_id, created_time, start_time, end_time, delivery_vip_level
+  </sql>
+  <sql id="Blob_Column_List" >
+    content, click_url, delivery_topic_class, delivery_topic, delivery_rule_ext
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="cunyun.zone.server.entity.CyBannerExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from cy_banner
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="cunyun.zone.server.entity.CyBannerExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from cy_banner
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from cy_banner
+    where banner_id = #{bannerId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from cy_banner
+    where banner_id = #{bannerId,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="cunyun.zone.server.entity.CyBannerExample" >
+    delete from cy_banner
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="cunyun.zone.server.entity.CyBannerWithBLOBs" >
+    insert into cy_banner (banner_id, created_time, start_time, 
+      end_time, delivery_vip_level, content, 
+      click_url, delivery_topic_class, delivery_topic, 
+      delivery_rule_ext)
+    values (#{bannerId,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}, #{startTime,jdbcType=TIMESTAMP}, 
+      #{endTime,jdbcType=TIMESTAMP}, #{deliveryVipLevel,jdbcType=VARCHAR}, #{content,jdbcType=LONGVARCHAR}, 
+      #{clickUrl,jdbcType=LONGVARCHAR}, #{deliveryTopicClass,jdbcType=LONGVARCHAR}, #{deliveryTopic,jdbcType=LONGVARCHAR}, 
+      #{deliveryRuleExt,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="cunyun.zone.server.entity.CyBannerWithBLOBs" >
+    insert into cy_banner
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="bannerId != null" >
+        banner_id,
+      </if>
+      <if test="createdTime != null" >
+        created_time,
+      </if>
+      <if test="startTime != null" >
+        start_time,
+      </if>
+      <if test="endTime != null" >
+        end_time,
+      </if>
+      <if test="deliveryVipLevel != null" >
+        delivery_vip_level,
+      </if>
+      <if test="content != null" >
+        content,
+      </if>
+      <if test="clickUrl != null" >
+        click_url,
+      </if>
+      <if test="deliveryTopicClass != null" >
+        delivery_topic_class,
+      </if>
+      <if test="deliveryTopic != null" >
+        delivery_topic,
+      </if>
+      <if test="deliveryRuleExt != null" >
+        delivery_rule_ext,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="bannerId != null" >
+        #{bannerId,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null" >
+        #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endTime != null" >
+        #{endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="deliveryVipLevel != null" >
+        #{deliveryVipLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        #{content,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="clickUrl != null" >
+        #{clickUrl,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryTopicClass != null" >
+        #{deliveryTopicClass,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryTopic != null" >
+        #{deliveryTopic,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryRuleExt != null" >
+        #{deliveryRuleExt,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="cunyun.zone.server.entity.CyBannerExample" resultType="java.lang.Integer" >
+    select count(*) from cy_banner
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update cy_banner
+    <set >
+      <if test="record.bannerId != null" >
+        banner_id = #{record.bannerId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createdTime != null" >
+        created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.startTime != null" >
+        start_time = #{record.startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.endTime != null" >
+        end_time = #{record.endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.deliveryVipLevel != null" >
+        delivery_vip_level = #{record.deliveryVipLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.content != null" >
+        content = #{record.content,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="record.clickUrl != null" >
+        click_url = #{record.clickUrl,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="record.deliveryTopicClass != null" >
+        delivery_topic_class = #{record.deliveryTopicClass,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="record.deliveryTopic != null" >
+        delivery_topic = #{record.deliveryTopic,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="record.deliveryRuleExt != null" >
+        delivery_rule_ext = #{record.deliveryRuleExt,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update cy_banner
+    set banner_id = #{record.bannerId,jdbcType=VARCHAR},
+      created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      start_time = #{record.startTime,jdbcType=TIMESTAMP},
+      end_time = #{record.endTime,jdbcType=TIMESTAMP},
+      delivery_vip_level = #{record.deliveryVipLevel,jdbcType=VARCHAR},
+      content = #{record.content,jdbcType=LONGVARCHAR},
+      click_url = #{record.clickUrl,jdbcType=LONGVARCHAR},
+      delivery_topic_class = #{record.deliveryTopicClass,jdbcType=LONGVARCHAR},
+      delivery_topic = #{record.deliveryTopic,jdbcType=LONGVARCHAR},
+      delivery_rule_ext = #{record.deliveryRuleExt,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update cy_banner
+    set banner_id = #{record.bannerId,jdbcType=VARCHAR},
+      created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      start_time = #{record.startTime,jdbcType=TIMESTAMP},
+      end_time = #{record.endTime,jdbcType=TIMESTAMP},
+      delivery_vip_level = #{record.deliveryVipLevel,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="cunyun.zone.server.entity.CyBannerWithBLOBs" >
+    update cy_banner
+    <set >
+      <if test="createdTime != null" >
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="startTime != null" >
+        start_time = #{startTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="endTime != null" >
+        end_time = #{endTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="deliveryVipLevel != null" >
+        delivery_vip_level = #{deliveryVipLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="content != null" >
+        content = #{content,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="clickUrl != null" >
+        click_url = #{clickUrl,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryTopicClass != null" >
+        delivery_topic_class = #{deliveryTopicClass,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryTopic != null" >
+        delivery_topic = #{deliveryTopic,jdbcType=LONGVARCHAR},
+      </if>
+      <if test="deliveryRuleExt != null" >
+        delivery_rule_ext = #{deliveryRuleExt,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where banner_id = #{bannerId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="cunyun.zone.server.entity.CyBannerWithBLOBs" >
+    update cy_banner
+    set created_time = #{createdTime,jdbcType=TIMESTAMP},
+      start_time = #{startTime,jdbcType=TIMESTAMP},
+      end_time = #{endTime,jdbcType=TIMESTAMP},
+      delivery_vip_level = #{deliveryVipLevel,jdbcType=VARCHAR},
+      content = #{content,jdbcType=LONGVARCHAR},
+      click_url = #{clickUrl,jdbcType=LONGVARCHAR},
+      delivery_topic_class = #{deliveryTopicClass,jdbcType=LONGVARCHAR},
+      delivery_topic = #{deliveryTopic,jdbcType=LONGVARCHAR},
+      delivery_rule_ext = #{deliveryRuleExt,jdbcType=LONGVARCHAR}
+    where banner_id = #{bannerId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cunyun.zone.server.entity.CyBanner" >
+    update cy_banner
+    set created_time = #{createdTime,jdbcType=TIMESTAMP},
+      start_time = #{startTime,jdbcType=TIMESTAMP},
+      end_time = #{endTime,jdbcType=TIMESTAMP},
+      delivery_vip_level = #{deliveryVipLevel,jdbcType=VARCHAR}
+    where banner_id = #{bannerId,jdbcType=VARCHAR}
+  </update>
+</mapper>

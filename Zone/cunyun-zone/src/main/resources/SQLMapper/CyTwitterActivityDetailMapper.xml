@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cunyun.zone.server.mapper.CyTwitterActivityDetailMapper" >
+  <resultMap id="BaseResultMap" type="cunyun.zone.server.entity.CyTwitterActivityDetail" >
+    <id column="twitter_id" property="twitterId" jdbcType="VARCHAR" />
+    <result column="activity_area" property="activityArea" jdbcType="VARCHAR" />
+    <result column="activity_time" property="activityTime" jdbcType="TIMESTAMP" />
+    <result column="x_coordinates" property="xCoordinates" jdbcType="VARCHAR" />
+    <result column="map_type" property="mapType" jdbcType="VARCHAR" />
+    <result column="created_time" property="createdTime" jdbcType="TIMESTAMP" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    twitter_id, activity_area, activity_time, x_coordinates, map_type, created_time
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetailExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from cy_twitter_activity_detail
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.String" >
+    select 
+    <include refid="Base_Column_List" />
+    from cy_twitter_activity_detail
+    where twitter_id = #{twitterId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String" >
+    delete from cy_twitter_activity_detail
+    where twitter_id = #{twitterId,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetailExample" >
+    delete from cy_twitter_activity_detail
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetail" >
+    insert into cy_twitter_activity_detail (twitter_id, activity_area, activity_time, 
+      x_coordinates, map_type, created_time
+      )
+    values (#{twitterId,jdbcType=VARCHAR}, #{activityArea,jdbcType=VARCHAR}, #{activityTime,jdbcType=TIMESTAMP}, 
+      #{xCoordinates,jdbcType=VARCHAR}, #{mapType,jdbcType=VARCHAR}, #{createdTime,jdbcType=TIMESTAMP}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetail" >
+    insert into cy_twitter_activity_detail
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="twitterId != null" >
+        twitter_id,
+      </if>
+      <if test="activityArea != null" >
+        activity_area,
+      </if>
+      <if test="activityTime != null" >
+        activity_time,
+      </if>
+      <if test="xCoordinates != null" >
+        x_coordinates,
+      </if>
+      <if test="mapType != null" >
+        map_type,
+      </if>
+      <if test="createdTime != null" >
+        created_time,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="twitterId != null" >
+        #{twitterId,jdbcType=VARCHAR},
+      </if>
+      <if test="activityArea != null" >
+        #{activityArea,jdbcType=VARCHAR},
+      </if>
+      <if test="activityTime != null" >
+        #{activityTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="xCoordinates != null" >
+        #{xCoordinates,jdbcType=VARCHAR},
+      </if>
+      <if test="mapType != null" >
+        #{mapType,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetailExample" resultType="java.lang.Integer" >
+    select count(*) from cy_twitter_activity_detail
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update cy_twitter_activity_detail
+    <set >
+      <if test="record.twitterId != null" >
+        twitter_id = #{record.twitterId,jdbcType=VARCHAR},
+      </if>
+      <if test="record.activityArea != null" >
+        activity_area = #{record.activityArea,jdbcType=VARCHAR},
+      </if>
+      <if test="record.activityTime != null" >
+        activity_time = #{record.activityTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="record.xCoordinates != null" >
+        x_coordinates = #{record.xCoordinates,jdbcType=VARCHAR},
+      </if>
+      <if test="record.mapType != null" >
+        map_type = #{record.mapType,jdbcType=VARCHAR},
+      </if>
+      <if test="record.createdTime != null" >
+        created_time = #{record.createdTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update cy_twitter_activity_detail
+    set twitter_id = #{record.twitterId,jdbcType=VARCHAR},
+      activity_area = #{record.activityArea,jdbcType=VARCHAR},
+      activity_time = #{record.activityTime,jdbcType=TIMESTAMP},
+      x_coordinates = #{record.xCoordinates,jdbcType=VARCHAR},
+      map_type = #{record.mapType,jdbcType=VARCHAR},
+      created_time = #{record.createdTime,jdbcType=TIMESTAMP}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetail" >
+    update cy_twitter_activity_detail
+    <set >
+      <if test="activityArea != null" >
+        activity_area = #{activityArea,jdbcType=VARCHAR},
+      </if>
+      <if test="activityTime != null" >
+        activity_time = #{activityTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="xCoordinates != null" >
+        x_coordinates = #{xCoordinates,jdbcType=VARCHAR},
+      </if>
+      <if test="mapType != null" >
+        map_type = #{mapType,jdbcType=VARCHAR},
+      </if>
+      <if test="createdTime != null" >
+        created_time = #{createdTime,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where twitter_id = #{twitterId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cunyun.zone.server.entity.CyTwitterActivityDetail" >
+    update cy_twitter_activity_detail
+    set activity_area = #{activityArea,jdbcType=VARCHAR},
+      activity_time = #{activityTime,jdbcType=TIMESTAMP},
+      x_coordinates = #{xCoordinates,jdbcType=VARCHAR},
+      map_type = #{mapType,jdbcType=VARCHAR},
+      created_time = #{createdTime,jdbcType=TIMESTAMP}
+    where twitter_id = #{twitterId,jdbcType=VARCHAR}
+  </update>
+</mapper>

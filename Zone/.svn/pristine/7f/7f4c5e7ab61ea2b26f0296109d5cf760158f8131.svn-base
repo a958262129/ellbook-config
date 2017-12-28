@@ -1,0 +1,2282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="debedf66-b408-4a75-a606-952fb08c3e02" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElAppUser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElAppUserChildren.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElCoupon.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElCustomer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElLoginDeviceInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElOrderHeader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElOtherPlatformInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ella/user/server/entity/ElVipCardConfig.java" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="D:\idea\ellabook-server-user" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ellabook-server-user" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="AppUserChildrenMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserChildrenMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1755">
+              <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+              <folding>
+                <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
+                <marker date="1511772119628" expanded="true" signature="1439:1670" ph="SELECT id, u... eb_app_user_children" />
+                <marker date="1511772119628" expanded="true" signature="1755:1883" ph="SELECT count... " />
+                <marker date="1511772119628" expanded="true" signature="1958:2191" ph="SELECT id, u... eb_app_user_children" />
+                <marker date="1511772119628" expanded="true" signature="2248:3355" ph="update eb_ap... " />
+                <marker date="1511772119628" expanded="true" signature="3510:3961" ph="insert into el_app_user_children... " />
+                <marker date="1511772119628" expanded="true" signature="4010:4093" ph="UPDATE el_ap... " />
+                <marker date="1511772119628" expanded="true" signature="4180:4952" ph="SELECT b.cid... eb_app_user" />
+                <marker date="1511772119628" expanded="true" signature="4617:4865" ph="SELECT uid, eb_user_read_history" />
+                <marker date="1511772119628" expanded="true" signature="5041:5633" ph="SELECT a.boo... eb_user_read_history" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppUserMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3726">
+              <caret line="138" column="25" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+              <folding>
+                <element signature="e#26643#26647#0" expanded="true" />
+                <element signature="e#26737#26741#0" expanded="true" />
+                <element signature="e#26928#26932#0" expanded="true" />
+                <element signature="e#27017#27021#0" expanded="true" />
+                <element signature="e#28423#28427#0" expanded="true" />
+                <element signature="e#28517#28521#0" expanded="true" />
+                <element signature="e#28708#28712#0" expanded="true" />
+                <element signature="e#28799#28803#0" expanded="true" />
+                <marker date="1511425427721" expanded="true" signature="6352:7285" ph="SELECT * FRO... id" />
+                <marker date="1511425427721" expanded="true" signature="6372:7018" ph="SELECT id id... eb_app_user" />
+                <marker date="1511425427721" expanded="true" signature="7037:7131" ph="select uid,b... eb_account" />
+                <marker date="1511425427721" expanded="true" signature="7167:7267" ph="SELECT ec.ui... " />
+                <marker date="1511425427721" expanded="true" signature="7365:7454" ph="Select balan... eb_account" />
+                <marker date="1511425427721" expanded="true" signature="7506:7576" ph="UPDATE eb_ac... " />
+                <marker date="1511425427721" expanded="true" signature="7634:7727" ph="UPDATE eb_ac... " />
+                <marker date="1511425427721" expanded="true" signature="12912:13029" ph="UPDATE eb_ap... " />
+                <marker date="1511425427721" expanded="true" signature="13074:13196" ph="UPDATE eb_ap... " />
+                <marker date="1511425427721" expanded="true" signature="13244:16276" ph="update eb_ap... " />
+                <marker date="1511425427721" expanded="true" signature="19593:19668" ph="select from eb_app_user" />
+                <marker date="1511425427721" expanded="true" signature="19763:19881" ph="UPDATE eb_ap... " />
+                <marker date="1511425427721" expanded="true" signature="19966:20084" ph="select COUNT... " />
+                <marker date="1511425427721" expanded="true" signature="20159:20260" ph="select from eb_app_user" />
+                <marker date="1511425427721" expanded="true" signature="20259:20260" ph="select from eb_app_user" />
+                <marker date="1511425427721" expanded="true" signature="20342:24890" ph="SELECT a.uid... eb_customer" />
+                <marker date="1511425427721" expanded="true" signature="22183:22840" ph="SELECT uid, eb_order_header" />
+                <marker date="1511425427721" expanded="true" signature="22902:23123" ph="SELECT uid, eb_coupon" />
+                <marker date="1511425427721" expanded="true" signature="23185:23628" ph="SELECT l.uid... eb_order_header" />
+                <marker date="1511425427721" expanded="true" signature="23690:23899" ph="SELECT uid, eb_user_read_history" />
+                <marker date="1511425427721" expanded="true" signature="23961:24274" ph="SELECT j.uid... eb_user_read_history" />
+                <marker date="1511425427721" expanded="true" signature="24336:24522" ph="SELECT uid, eb_other_platform_info" />
+                <marker date="1511425427721" expanded="true" signature="24650:24803" ph="SELECT uid, " />
+                <marker date="1511425427721" expanded="true" signature="24975:25502" ph="SELECT comme... eb_book_comment" />
+                <marker date="1511425427721" expanded="true" signature="25597:25705" ph="SELECT count... " />
+                <marker date="1511425427721" expanded="true" signature="25797:25931" ph="UPDATE eb_bo... " />
+                <marker date="1511425427721" expanded="true" signature="26016:27978" ph="SELECT a.uid... eb_app_user" />
+                <marker date="1511425427721" expanded="true" signature="29839:30247" ph="UPDATE eb_ap... " />
+                <marker date="1511425427721" expanded="true" signature="30334:30630" ph="SELECT modul... eb_home_page" />
+                <marker date="1511425427721" expanded="true" signature="30777:30914" ph="UPDATE ##{mov... " />
+                <marker date="1511425427721" expanded="true" signature="30920:31059" ph="UPDATE ##{mov... " />
+                <marker date="1511425427721" expanded="true" signature="31152:31226" ph="DELETE FROM " />
+                <marker date="1511425427721" expanded="true" signature="31234:31333" ph="UPDATE eb_op... " />
+                <marker date="1511425427721" expanded="true" signature="31414:31585" ph="SELECT part_... eb_operation_part" />
+                <marker date="1511425427721" expanded="true" signature="31695:32023" ph="insert into eb_home_page... " />
+                <marker date="1511425427721" expanded="true" signature="32031:32110" ph="update eb_ho... " />
+                <marker date="1511425427721" expanded="true" signature="32118:32215" ph="UPDATE eb_op... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegisterAndLoginController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/RegisterAndLoginController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>boot</find>
+      <find>ins</find>
+      <find>coupon</find>
+      <find>det</find>
+      <find>comment</find>
+      <find>绑定</find>
+      <find>Call</find>
+      <find>deleteHomePageModule</find>
+      <find>com</find>
+      <find>move</find>
+      <find>publish</find>
+      <find>find</find>
+      <find>home</find>
+      <find>if</find>
+      <find>buy</find>
+      <find>select</find>
+      <find>channelCode</find>
+      <find>buyH</find>
+      <find>user</find>
+      <find>userOrderCount</find>
+      <find>children</find>
+      <find>IOS</find>
+      <find>updat</find>
+      <find>by</find>
+      <find>save</find>
+      <find>findUserInfo</find>
+      <find>update</find>
+      <find>info</find>
+      <find>insert</find>
+      <find>findAvatarByUid</find>
+    </findStrings>
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/LoginDeviceInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/AppUser.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/ListConfigService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/VipCardConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/ListConfigServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/VipCardConfigMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/BookStudy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/EbOrderDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/OrderDetail.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/vo/BuyBookVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/util/TokenUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/CouponMapper.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/Area.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/AreaService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AreaMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/AreaMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/controller/AreaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OperationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/AppUserChildren.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/ChildrenService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/vo/pageVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/util/pageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/OrderHeader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/OrderHeaderMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/entity/vo/UserManageVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/controller/Ordercontroller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/CouponMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OtherPlatformInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/AreaServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AppUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/UserFeedbackService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/controller/FeedbackController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/response/ResponseParams.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/controller/ChildrenController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AppUserChildrenMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/ChildrenServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/VipCardConfigMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserChildrenMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/SQLMapper/OrderHeaderMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/UserServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ellabook-server-user" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Dependencies" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$DependenciesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ellabook-server-user" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SQLMapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ellabook-server-user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ellabook-server-book" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ella.user.server.entity" />
+      <recent name="ella.user.server.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea\ellabook-server-user\src\main\java\ella\user\server\mapper" />
+      <recent name="D:\idea\ellabook-server-user\src\main\resources\SQLMapper" />
+      <recent name="D:\idea\ellabook-server-user\src\main\java\ella\user\server\entity" />
+      <recent name="D:\idea\ellabook-server-user\src\main\java\ella\user\server\util" />
+      <recent name="D:\idea\ellabook-server-user\src\main\java\ella\user\server\util\upload" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication">
+    <configuration default="false" name="AreaServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ella.user.server.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ella.user.server.service.impl.AreaServiceImpl" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ellabook-server-user" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="All in ellabook-server-user" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="ellabook-server-user" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ellabook-server-user" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="package" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="clean" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="clean" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ella.user.server.Application" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="ellabook-server-user" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ella.user.server.UserApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <module name="ellabook-server-user" />
+      <envs />
+      <method />
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Maven.package" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.clean" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.Application" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
+      <item index="4" class="java.lang.String" itemvalue="Application.AreaServiceImpl" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.All in ellabook-server-user" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.AreaServiceImpl" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.All in ellabook-server-user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" myUseAcceleration="nothing" cleanupOnStartRun="true">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\idea\ellabook-server-user" />
+          <option name="myCopyRoot" value="D:\idea\ellabook-server-user" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\idea\ellabook-server-user" />
+          <option name="myCopyRoot" value="D:\idea\ellabook-server-user" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="debedf66-b408-4a75-a606-952fb08c3e02" name="Default" comment="" />
+      <created>1503575194279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503575194279</updated>
+      <workItem from="1503575202400" duration="46391000" />
+      <workItem from="1503883538171" duration="41646000" />
+      <workItem from="1504062321487" duration="32885000" />
+      <workItem from="1504151238366" duration="3744000" />
+      <workItem from="1504168472394" duration="6736000" />
+      <workItem from="1504235173295" duration="5591000" />
+      <workItem from="1504488587679" duration="30337000" />
+      <workItem from="1504614539693" duration="4152000" />
+      <workItem from="1504667239117" duration="619000" />
+      <workItem from="1504679935063" duration="2669000" />
+      <workItem from="1504684188646" duration="56834000" />
+      <workItem from="1505180929947" duration="56386000" />
+      <workItem from="1505440888972" duration="18508000" />
+      <workItem from="1505698694644" duration="102199000" />
+      <workItem from="1506562005132" duration="33861000" />
+      <workItem from="1506648848186" duration="34489000" />
+      <workItem from="1507512601995" duration="2855000" />
+      <workItem from="1507549137960" duration="187309000" />
+      <workItem from="1509327702153" duration="52787000" />
+      <workItem from="1509937745064" duration="26607000" />
+      <workItem from="1510644063564" duration="5363000" />
+      <workItem from="1511142035035" duration="9113000" />
+      <workItem from="1511746679402" duration="2806000" />
+      <workItem from="1511832796086" duration="1929000" />
+      <workItem from="1512023318406" duration="583000" />
+      <workItem from="1512351512551" duration="2997000" />
+      <workItem from="1512361585184" duration="17020000" />
+      <workItem from="1513734932174" duration="748000" />
+      <workItem from="1513906798159" duration="612000" />
+      <workItem from="1513925647908" duration="3308000" />
+    </task>
+    <task id="LOCAL-00027">
+      <created>1505728728114</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1505728728114</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1505741261102</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1505741261102</updated>
+    </task>
+    <task id="LOCAL-00029">
+      <created>1505784742112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1505784742112</updated>
+    </task>
+    <task id="LOCAL-00030">
+      <created>1505788974103</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1505788974103</updated>
+    </task>
+    <task id="LOCAL-00031">
+      <created>1505789949108</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1505789949108</updated>
+    </task>
+    <task id="LOCAL-00032">
+      <created>1505815127104</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1505815127104</updated>
+    </task>
+    <task id="LOCAL-00033">
+      <created>1505880257113</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1505880257113</updated>
+    </task>
+    <task id="LOCAL-00034">
+      <created>1505898511114</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1505898511114</updated>
+    </task>
+    <task id="LOCAL-00035">
+      <created>1505986324129</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1505986324129</updated>
+    </task>
+    <task id="LOCAL-00036">
+      <created>1505986449119</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1505986449119</updated>
+    </task>
+    <task id="LOCAL-00037">
+      <created>1505994852160</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1505994852160</updated>
+    </task>
+    <task id="LOCAL-00038">
+      <created>1506046569120</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1506046569120</updated>
+    </task>
+    <task id="LOCAL-00039">
+      <created>1506063364115</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1506063364115</updated>
+    </task>
+    <task id="LOCAL-00040">
+      <created>1506068845104</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1506068845104</updated>
+    </task>
+    <task id="LOCAL-00041">
+      <created>1506068894115</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1506068894115</updated>
+    </task>
+    <task id="LOCAL-00042">
+      <created>1506069547114</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1506069547114</updated>
+    </task>
+    <task id="LOCAL-00043">
+      <created>1506073276114</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1506073276114</updated>
+    </task>
+    <task id="LOCAL-00044">
+      <created>1506076227107</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1506076227107</updated>
+    </task>
+    <task id="LOCAL-00045">
+      <created>1506078331124</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1506078331124</updated>
+    </task>
+    <task id="LOCAL-00046">
+      <created>1506598411184</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1506598411184</updated>
+    </task>
+    <task id="LOCAL-00047">
+      <created>1506649819112</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1506649819112</updated>
+    </task>
+    <task id="LOCAL-00048">
+      <created>1506650083124</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1506650083125</updated>
+    </task>
+    <task id="LOCAL-00049">
+      <created>1506678457857</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1506678457857</updated>
+    </task>
+    <task id="LOCAL-00050">
+      <created>1506741640115</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1506741640116</updated>
+    </task>
+    <task id="LOCAL-00051">
+      <created>1506754616137</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1506754616137</updated>
+    </task>
+    <task id="LOCAL-00052">
+      <created>1506765544103</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1506765544103</updated>
+    </task>
+    <task id="LOCAL-00053">
+      <created>1506768807121</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1506768807121</updated>
+    </task>
+    <task id="LOCAL-00054">
+      <created>1507615561193</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1507615561194</updated>
+    </task>
+    <task id="LOCAL-00055">
+      <created>1507723987282</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1507723987282</updated>
+    </task>
+    <task id="LOCAL-00056">
+      <created>1507808632108</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1507808632108</updated>
+    </task>
+    <task id="LOCAL-00057">
+      <created>1508120814116</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1508120814116</updated>
+    </task>
+    <task id="LOCAL-00058">
+      <created>1508385818115</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1508385818115</updated>
+    </task>
+    <task id="LOCAL-00059">
+      <created>1508740770105</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1508740770105</updated>
+    </task>
+    <task id="LOCAL-00060">
+      <created>1508740798104</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1508740798104</updated>
+    </task>
+    <task id="LOCAL-00061">
+      <created>1508740812103</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1508740812104</updated>
+    </task>
+    <task id="LOCAL-00062">
+      <created>1508740949110</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1508740949110</updated>
+    </task>
+    <task id="LOCAL-00063">
+      <created>1508741059110</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1508741059110</updated>
+    </task>
+    <task id="LOCAL-00064">
+      <created>1508849302109</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1508849302109</updated>
+    </task>
+    <task id="LOCAL-00065">
+      <created>1508926827102</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1508926827102</updated>
+    </task>
+    <task id="LOCAL-00066">
+      <created>1509443615118</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1509443615121</updated>
+    </task>
+    <task id="LOCAL-00067">
+      <created>1509957401116</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1509957401118</updated>
+    </task>
+    <task id="LOCAL-00068">
+      <created>1510038508127</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1510038508127</updated>
+    </task>
+    <task id="LOCAL-00069">
+      <created>1510796831139</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1510796831141</updated>
+    </task>
+    <task id="LOCAL-00070">
+      <created>1511425457104</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1511425457161</updated>
+    </task>
+    <task id="LOCAL-00071">
+      <created>1511430172114</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1511430172114</updated>
+    </task>
+    <task id="LOCAL-00072">
+      <created>1511430942125</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1511430942125</updated>
+    </task>
+    <task id="LOCAL-00073">
+      <created>1512444634123</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1512444634124</updated>
+    </task>
+    <task id="LOCAL-00074">
+      <created>1513582728103</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1513582728104</updated>
+    </task>
+    <task id="LOCAL-00075">
+      <created>1513591053104</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1513591053104</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="All_in_ellabook-server-user - 2017.08.31 at 10h 59m 10s.xml">
+      <configuration name="All in ellabook-server-user" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="791084000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28372592" sideWeight="0.51226014" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20202559" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31156316" sideWeight="0.49253732" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32869378" sideWeight="0.48880598" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254818" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25910065" sideWeight="0.48773986" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24147122" sideWeight="0.49441788" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20149253" sideWeight="0.50558215" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
+    <MESSAGE value="update:孩子相关接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <option name="CHANGE_BROWSER_SETTINGS">
+      <map>
+        <entry key="svn">
+          <value>
+            <ChangeBrowserSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="66" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/OtherPlatformInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8613">
+          <caret line="319" column="94" lean-forward="false" selection-start-line="319" selection-start-column="94" selection-end-line="319" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/VipCardConfigMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/LoginDeviceInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ellabook/ellabook-commons/1.0/ellabook-commons-1.0-sources.jar!/com/ellabook/entity/user/vo/UserManageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="62" column="1" lean-forward="false" selection-start-line="62" selection-start-column="1" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OperationUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/ChildrenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="15" column="46" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/AreaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="16" column="42" lean-forward="false" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/ListConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/NoteServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.ellabook:ellabook-server-user:1.0">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.ellabook:ellabook-server-user:1.0</OriginalElement>
+          <nodes>
+            <node x="" y="">com.ellabook:ellabook-server-user:1.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.3.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.2.RELEASE/org.springframework.boot:spring-boot:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.2.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.guava:guava:jar:14.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.servo:servo-core:jar:0.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.archaius:archaius-core:jar:0.3.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.archaius:archaius-core:jar:0.7.3/com.google.guava:guava:jar:16.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.google.guava:guava:jar:16.0.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1/com.sun.jersey:jersey-client:jar:1.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/com.google.guava:guava:jar:19.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.2.RELEASE/com.netflix.archaius:archaius-core:jar:0.7.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.2.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.2.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.2.RELEASE/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxjava:jar:1.0.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9/com.netflix.servo:servo-core:jar:0.7.5</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.hystrix:hystrix-core:jar:1.4.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/commons-collections:commons-collections:jar:3.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/org.apache.httpcomponents:httpclient:jar:4.3.4</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.sun.jersey:jersey-client:jar:1.13</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/io.reactivex:rxjava:jar:1.0.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.2.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2/com.netflix.eureka:eureka-client:jar:1.4.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2/com.netflix.archaius:archaius-core:jar:0.7.3</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.2.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.4.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter:jar:1.5.4.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.4.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.15</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.4.RELEASE/org.apache.tomcat:tomcat-jdbc:jar:8.5.15/org.apache.tomcat:tomcat-juli:jar:8.5.15</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.springframework.boot:spring-boot-starter-jdbc:jar:1.5.4.RELEASE/org.springframework:spring-jdbc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:jar:1.3.0</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis:jar:3.4.4</node>
+            <node x="" y="">org.mybatis.spring.boot:mybatis-spring-boot-starter:jar:1.3.0/org.mybatis:mybatis-spring:jar:1.3.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.4.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.15</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.8</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE/org.springframework:spring-aop:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE/org.springframework:spring-beans:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-web:jar:4.3.9.RELEASE/org.springframework:spring-context:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-webmvc:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:1.5.4.RELEASE/org.springframework:spring-webmvc:jar:4.3.9.RELEASE/org.springframework:spring-expression:jar:4.3.9.RELEASE</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.35</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework.data:spring-data-keyvalue:jar:1.2.4.RELEASE/org.springframework.data:spring-data-commons:jar:1.13.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-tx:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-oxm:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.springframework:spring-context-support:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/org.springframework.data:spring-data-redis:jar:1.8.4.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/redis.clients:jedis:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-redis:jar:1.4.7.RELEASE/redis.clients:jedis:jar:2.9.0/org.apache.commons:commons-pool2:jar:2.4.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.4.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.springframework:spring-core:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.4.RELEASE/org.springframework:spring-test:jar:4.3.9.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.3.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-core:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-core:jar:9.5.0/org.jvnet:animal-sniffer-annotation:jar:1.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-slf4j:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.archaius:archaius-core:jar:0.6.6</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26/com.netflix.archaius:archaius-core:jar:0.4.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/io.github.openfeign:feign-hystrix:jar:9.5.0/com.netflix.hystrix:hystrix-core:jar:1.4.26/io.reactivex:rxjava:jar:1.1.1</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-feign:jar:1.3.4.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.4.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.2.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.3.2.RELEASE</node>
+            <node x="" y="">org.apache.commons:commons-lang3:jar:3.4</node>
+            <node x="" y="">org.json:json:jar:20160810</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.4</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.4/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
+            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.4/commons-codec:commons-codec:jar:1.10</node>
+            <node x="" y="">com.sun.jersey:jersey-core:jar:1.13</node>
+            <node x="" y="">com.sun.jersey:jersey-client:jar:1.13</node>
+            <node x="" y="">com.github.fernandospr:javapns-jdk16:jar:2.3.1</node>
+            <node x="" y="">com.github.fernandospr:javapns-jdk16:jar:2.3.1/log4j:log4j:jar:1.2.12</node>
+            <node x="" y="">com.ellabook:ellabook-commons:jar:1.0</node>
+            <node x="" y="">com.ellabook:ellabook-commons:jar:1.0/com.alibaba:fastjson:jar:1.2.7</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.2000000000000002" x="1968.0" y="3439.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/CouponMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="83" column="52" lean-forward="false" selection-start-line="83" selection-start-column="52" selection-end-line="83" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ellabook/ellabook-commons/1.0/ellabook-commons-1.0-sources.jar!/com/ellabook/entity/user/vo/pageVo.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/json/json/20160810/json-20160810.jar!/org/json/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9045">
+          <caret line="375" column="0" lean-forward="false" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OtherPlatformInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="62" column="40" lean-forward="false" selection-start-line="62" selection-start-column="40" selection-end-line="62" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ellabook/ellabook-commons/1.0/ellabook-commons-1.0-sources.jar!/com/ellabook/entity/user/AppUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="26" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AreaMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#482#483#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/UserFeedbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/FeedbackController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1043">
+          <caret line="69" column="44" lean-forward="false" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/AreaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/UserFeedbackServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/util/pageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/ChildrenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/Ordercontroller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ellabook/ellabook-commons/1.0/ellabook-commons-1.0-sources.jar!/com/ellabook/entity/user/Coupon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/OrderHeaderMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/ellabook/ellabook-commons/1.0/ellabook-commons-1.0-sources.jar!/com/ellabook/entity/user/AppUserChildren.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="101" column="16" lean-forward="false" selection-start-line="101" selection-start-column="16" selection-end-line="101" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="1753" column="22" lean-forward="false" selection-start-line="1753" selection-start-column="22" selection-end-line="1753" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/VipCardConfigMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="46" lean-forward="false" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding>
+            <marker date="1510728197196" expanded="true" signature="281:700" ph="SELECT ios_p... eb_vip_card_config" />
+            <marker date="1510728197196" expanded="true" signature="281:717" ph="SELECT ios_p... eb_vip_card_config" />
+            <marker date="1510728197196" expanded="true" signature="796:1220" ph="SELECT ios_p... eb_coin_config" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <marker date="1508726139396" expanded="true" signature="960:1057" ph="select from eb_account" />
+            <marker date="1508726139396" expanded="true" signature="1138:1197" ph="delete from " />
+            <marker date="1508726139396" expanded="true" signature="1285:1618" ph="insert into eb_account... " />
+            <marker date="1508726139396" expanded="true" signature="2854:3440" ph="update eb_ac... " />
+            <marker date="1508726139396" expanded="true" signature="3537:3863" ph="update eb_ac... " />
+            <marker date="1508726139396" expanded="true" signature="3916:3993" ph="UPDATE eb_ac... " />
+            <marker date="1508726139396" expanded="true" signature="4048:4133" ph="UPDATE eb_ac... " />
+            <marker date="1508726139396" expanded="true" signature="4239:4371" ph="SELECT id, u... eb_account" />
+            <marker date="1508726139396" expanded="true" signature="4440:4540" ph="select from eb_account" />
+            <marker date="1508726139396" expanded="true" signature="4585:4788" ph="update eb_ac... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="19" lean-forward="false" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AreaMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <marker date="1507974246911" expanded="true" signature="286:389" ph="SELECT area_... eb_area" />
+            <marker date="1507974246911" expanded="true" signature="286:480" ph="SELECT area_... eb_area" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="113" column="39" lean-forward="false" selection-start-line="113" selection-start-column="27" selection-end-line="113" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AppUserChildrenMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/ChildrenServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="26" column="14" lean-forward="false" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserChildrenMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="22" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+          <folding>
+            <element signature="n#select#3;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1511772119628" expanded="true" signature="1439:1670" ph="SELECT id, u... eb_app_user_children" />
+            <marker date="1511772119628" expanded="true" signature="1755:1883" ph="SELECT count... " />
+            <marker date="1511772119628" expanded="true" signature="1958:2191" ph="SELECT id, u... eb_app_user_children" />
+            <marker date="1511772119628" expanded="true" signature="2248:3355" ph="update eb_ap... " />
+            <marker date="1511772119628" expanded="true" signature="3510:3961" ph="insert into el_app_user_children... " />
+            <marker date="1511772119628" expanded="true" signature="4010:4093" ph="UPDATE el_ap... " />
+            <marker date="1511772119628" expanded="true" signature="4180:4952" ph="SELECT b.cid... eb_app_user" />
+            <marker date="1511772119628" expanded="true" signature="4617:4865" ph="SELECT uid, eb_user_read_history" />
+            <marker date="1511772119628" expanded="true" signature="5041:5633" ph="SELECT a.boo... eb_user_read_history" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/AppUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3726">
+          <caret line="138" column="25" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding>
+            <element signature="e#26643#26647#0" expanded="true" />
+            <element signature="e#26737#26741#0" expanded="true" />
+            <element signature="e#26928#26932#0" expanded="true" />
+            <element signature="e#27017#27021#0" expanded="true" />
+            <element signature="e#28423#28427#0" expanded="true" />
+            <element signature="e#28517#28521#0" expanded="true" />
+            <element signature="e#28708#28712#0" expanded="true" />
+            <element signature="e#28799#28803#0" expanded="true" />
+            <marker date="1511425427721" expanded="true" signature="6352:7285" ph="SELECT * FRO... id" />
+            <marker date="1511425427721" expanded="true" signature="6372:7018" ph="SELECT id id... eb_app_user" />
+            <marker date="1511425427721" expanded="true" signature="7037:7131" ph="select uid,b... eb_account" />
+            <marker date="1511425427721" expanded="true" signature="7167:7267" ph="SELECT ec.ui... " />
+            <marker date="1511425427721" expanded="true" signature="7365:7454" ph="Select balan... eb_account" />
+            <marker date="1511425427721" expanded="true" signature="7506:7576" ph="UPDATE eb_ac... " />
+            <marker date="1511425427721" expanded="true" signature="7634:7727" ph="UPDATE eb_ac... " />
+            <marker date="1511425427721" expanded="true" signature="12912:13029" ph="UPDATE eb_ap... " />
+            <marker date="1511425427721" expanded="true" signature="13074:13196" ph="UPDATE eb_ap... " />
+            <marker date="1511425427721" expanded="true" signature="13244:16276" ph="update eb_ap... " />
+            <marker date="1511425427721" expanded="true" signature="19593:19668" ph="select from eb_app_user" />
+            <marker date="1511425427721" expanded="true" signature="19763:19881" ph="UPDATE eb_ap... " />
+            <marker date="1511425427721" expanded="true" signature="19966:20084" ph="select COUNT... " />
+            <marker date="1511425427721" expanded="true" signature="20159:20260" ph="select from eb_app_user" />
+            <marker date="1511425427721" expanded="true" signature="20259:20260" ph="select from eb_app_user" />
+            <marker date="1511425427721" expanded="true" signature="20342:24890" ph="SELECT a.uid... eb_customer" />
+            <marker date="1511425427721" expanded="true" signature="22183:22840" ph="SELECT uid, eb_order_header" />
+            <marker date="1511425427721" expanded="true" signature="22902:23123" ph="SELECT uid, eb_coupon" />
+            <marker date="1511425427721" expanded="true" signature="23185:23628" ph="SELECT l.uid... eb_order_header" />
+            <marker date="1511425427721" expanded="true" signature="23690:23899" ph="SELECT uid, eb_user_read_history" />
+            <marker date="1511425427721" expanded="true" signature="23961:24274" ph="SELECT j.uid... eb_user_read_history" />
+            <marker date="1511425427721" expanded="true" signature="24336:24522" ph="SELECT uid, eb_other_platform_info" />
+            <marker date="1511425427721" expanded="true" signature="24650:24803" ph="SELECT uid, " />
+            <marker date="1511425427721" expanded="true" signature="24975:25502" ph="SELECT comme... eb_book_comment" />
+            <marker date="1511425427721" expanded="true" signature="25597:25705" ph="SELECT count... " />
+            <marker date="1511425427721" expanded="true" signature="25797:25931" ph="UPDATE eb_bo... " />
+            <marker date="1511425427721" expanded="true" signature="26016:27978" ph="SELECT a.uid... eb_app_user" />
+            <marker date="1511425427721" expanded="true" signature="29839:30247" ph="UPDATE eb_ap... " />
+            <marker date="1511425427721" expanded="true" signature="30334:30630" ph="SELECT modul... eb_home_page" />
+            <marker date="1511425427721" expanded="true" signature="30777:30914" ph="UPDATE ##{mov... " />
+            <marker date="1511425427721" expanded="true" signature="30920:31059" ph="UPDATE ##{mov... " />
+            <marker date="1511425427721" expanded="true" signature="31152:31226" ph="DELETE FROM " />
+            <marker date="1511425427721" expanded="true" signature="31234:31333" ph="UPDATE eb_op... " />
+            <marker date="1511425427721" expanded="true" signature="31414:31585" ph="SELECT part_... eb_operation_part" />
+            <marker date="1511425427721" expanded="true" signature="31695:32023" ph="insert into eb_home_page... " />
+            <marker date="1511425427721" expanded="true" signature="32031:32110" ph="update eb_ho... " />
+            <marker date="1511425427721" expanded="true" signature="32118:32215" ph="UPDATE eb_op... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="175" column="19" lean-forward="false" selection-start-line="175" selection-start-column="19" selection-end-line="175" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/response/ResponseParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AppUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="268" column="26" lean-forward="false" selection-start-line="268" selection-start-column="26" selection-end-line="268" selection-end-column="26" />
+          <folding>
+            <marker date="1508726139434" expanded="true" signature="7675:7774" ph="select from eb_customer" />
+            <marker date="1508726139434" expanded="true" signature="7903:7967" ph="select from eb_customer" />
+            <marker date="1508726139434" expanded="true" signature="8100:8123" ph="insert into eb_customer... " />
+            <marker date="1508726139434" expanded="true" signature="8319:8404" ph="update eb_cu... " />
+            <marker date="1508726139434" expanded="true" signature="8478:8496" ph="update eb_cu... " />
+            <marker date="1508726139434" expanded="true" signature="8642:8752" ph="SELECT count... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/OrderHeaderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="89" column="23" lean-forward="true" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1513582613188" expanded="true" signature="1630:2462" ph="SELECT a.cre... eb_order_header" />
+            <marker date="1513582613188" expanded="true" signature="2515:2959" ph="insert into eb_book_study... " />
+            <marker date="1513582613188" expanded="true" signature="3003:3852" ph="insert into eb_order_header... " />
+            <marker date="1513582613188" expanded="true" signature="3934:4295" ph="SELECT goods... eb_goods" />
+            <marker date="1513582613188" expanded="true" signature="4350:4969" ph="insert into eb_order_detail... " />
+            <marker date="1513582613188" expanded="true" signature="5054:5816" ph="SELECT b.goo... eb_order_header" />
+            <marker date="1513582613188" expanded="true" signature="5905:6023" ph="SELECT count... " />
+            <marker date="1513582613188" expanded="true" signature="6117:6660" ph="SELECT sum( eb_order_header" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQLMapper/OperationUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <marker date="1513050206371" expanded="true" signature="1200:1460" ph="select a.id,... eb_operation_user" />
+            <marker date="1513050206371" expanded="true" signature="1517:1636" ph="UPDATE eb_op... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ella/user/server/controller/RegisterAndLoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="66" column="19" lean-forward="true" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ellabook-server-user</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

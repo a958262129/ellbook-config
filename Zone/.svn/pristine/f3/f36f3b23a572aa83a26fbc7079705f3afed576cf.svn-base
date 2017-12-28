@@ -1,0 +1,94 @@
+package cunyun.zone.server.response;
+
+
+import java.io.Serializable;
+
+/**
+ * 返回请求参数
+ *  Date          Author       Version       Description
+ * ----------------------------------------------------------
+ *  2017-8-21      yanlei            1.0           Create
+ */
+public class ResponseParams implements Serializable{
+	private String code;
+	
+	private String status;
+	
+	private String message;
+	
+	private String remark;
+	
+	private Object data;
+
+	public ResponseParams() {
+		super();
+		this.code="";
+		this.status="";
+		this.message="";
+		this.remark="";
+		this.data="";
+	}
+
+	public ResponseParams(String remark) {
+		this.remark = remark;
+	}
+	
+	public ResponseParams fill(String status, String message) {
+		this.setStatus(status);
+		this.setMessage(message);
+		return this;
+	}
+
+	public ResponseParams fill(String code, String message, String status) {
+		this.code=code;
+		this.message=message;
+		this.setStatus(status);
+		return this;
+	}
+	public ResponseParams fill(String status, String message,Object data) {
+		this.setData(data);
+		this.fill(status, message);
+		return this;
+	}
+
+	public String getCode() {
+		return code;
+	}
+
+	public void setCode(String code) {
+		this.code = code;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
+
+	public String getRemark() {
+		return remark;
+	}
+
+	public void setRemark(String remark) {
+		this.remark = remark;
+	}
+
+	public Object getData() {
+		return data;
+	}
+
+	public void setData(Object data) {
+		this.data = data;
+	}
+
+}

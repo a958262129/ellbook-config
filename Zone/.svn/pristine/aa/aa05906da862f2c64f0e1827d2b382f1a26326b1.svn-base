@@ -1,0 +1,55 @@
+package cunyun.zone.server.entity;
+
+import java.util.Date;
+
+public class CyBanner {
+    private String bannerId;
+
+    private Date createdTime;
+
+    private Date startTime;
+
+    private Date endTime;
+
+    private String deliveryVipLevel;
+
+    public String getBannerId() {
+        return bannerId;
+    }
+
+    public void setBannerId(String bannerId) {
+        this.bannerId = bannerId == null ? null : bannerId.trim();
+    }
+
+    public Date getCreatedTime() {
+        return createdTime;
+    }
+
+    public void setCreatedTime(Date createdTime) {
+        this.createdTime = createdTime;
+    }
+
+    public Date getStartTime() {
+        return startTime;
+    }
+
+    public void setStartTime(Date startTime) {
+        this.startTime = startTime;
+    }
+
+    public Date getEndTime() {
+        return endTime;
+    }
+
+    public void setEndTime(Date endTime) {
+        this.endTime = endTime;
+    }
+
+    public String getDeliveryVipLevel() {
+        return deliveryVipLevel;
+    }
+
+    public void setDeliveryVipLevel(String deliveryVipLevel) {
+        this.deliveryVipLevel = deliveryVipLevel == null ? null : deliveryVipLevel.trim();
+    }
+}
