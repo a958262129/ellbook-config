@@ -138,8 +138,8 @@
       <file leaf-file-name="CyUserFriendsMapper.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="-182">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <marker date="1514451863190" expanded="true" signature="288:724" ph="SELECT a.uid... cy_user_friends" />
                 <marker date="1514451863190" expanded="true" signature="672:724" ph="SELECT id, u... cy_user_friends" />
@@ -1108,7 +1108,7 @@
       <updated>1514345735579</updated>
       <workItem from="1514345740852" duration="132000" />
       <workItem from="1514345914134" duration="11208000" />
-      <workItem from="1514429655867" duration="13309000" />
+      <workItem from="1514429655867" duration="13521000" />
     </task>
     <task id="LOCAL-00001">
       <created>1514367955125</created>
@@ -1128,7 +1128,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24649000" />
+    <option name="totallyTimeSpent" value="24861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1633,8 +1633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="-182">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <marker date="1514451863190" expanded="true" signature="288:724" ph="SELECT a.uid... cy_user_friends" />
             <marker date="1514451863190" expanded="true" signature="672:724" ph="SELECT id, u... cy_user_friends" />
