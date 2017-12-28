@@ -4,28 +4,35 @@
 
 
   <select id="findUserFriends" resultType="java.util.Map">
-      SELECT
-        id,
-        uid,
-        friend_uid friendUid,
-        created_time createdTime,
-        status
-    FROM
-        cy_user_friends
-    WHERE
-        STATUS = 0 and uid=#{uid,jdbcType=VARCHAR}
-         order by created_time
+          SELECT
+            a.uid,
+            a.friend_uid friendUid,
+            a.created_time createdTime,
+            a. STATUS,
+            b.user_avatar userAvatar,
+            b.nick_name nickName
+        FROM
+            cy_user_friends a
+        LEFT JOIN cy_user b ON a.friend_uid = b.uid
+        WHERE
+            a. STATUS = 0
+        AND a.uid = 1
+        ORDER BY
+            a.created_time
         limit #{limitStart},#{pageSize}
   </select>
 
 
   <select id="findUserFriendsCount" resultType="java.lang.Integer">
     SELECT
- count(*) count
-    FROM
-    cy_user_friends
-    WHERE
-    STATUS = 0 and uid=#{uid,jdbcType=VARCHAR}
-    order by created_time
+     count(*) count
+     FROM
+                cy_user_friends a
+            LEFT JOIN cy_user b ON a.friend_uid = b.uid
+            WHERE
+                a. STATUS = 0
+            AND a.uid = 1
+            ORDER BY
+                a.created_time
   </select>
 </mapper>
