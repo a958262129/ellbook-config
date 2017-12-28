@@ -6,9 +6,10 @@ import com.alibaba.fastjson.serializer.SerializerFeature;
 
 import cunyun.zone.server.command.IRequestCommand;
 import cunyun.zone.server.command.RequestCommandContainer;
+import cunyun.zone.server.entity.web.JsonResponseMsg;
 import cunyun.zone.server.entity.web.RequestParams;
 import cunyun.zone.server.entity.web.RequestParamsParse;
-import cunyun.zone.server.response.ResponseParams;
+import cunyun.zone.server.entity.web.ResponseParams;
 import org.apache.commons.io.IOUtils;
 
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -43,7 +44,7 @@ public class CommandController {
             // 2：分发请求
             String method = requestParam.getParams().get(RequestParamsParse.METHOD);
             requestCommand = RequestCommandContainer.getInstance().get(method);
-            ResponseParams res = requestCommand.execute(requestParam);
+            JsonResponseMsg res = requestCommand.execute(requestParam);
             // 3:返回结果
 
             //log.info("ResponseParams:"+requestParam.getIp()+" method:"+method+":"+res);

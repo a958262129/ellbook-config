@@ -1,7 +1,10 @@
 package cunyun.zone.server.mapper;
 
 import cunyun.zone.server.entity.CyUserInviteUrl;
+import org.apache.ibatis.annotations.Mapper;
 
+
+@Mapper
 public interface CyUserInviteUrlMapper {
 
     int deleteByPrimaryKey(Integer id);

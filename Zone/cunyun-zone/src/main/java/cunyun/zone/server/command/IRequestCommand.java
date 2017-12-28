@@ -1,8 +1,9 @@
 package cunyun.zone.server.command;
 
 
+import cunyun.zone.server.entity.web.JsonResponseMsg;
 import cunyun.zone.server.entity.web.RequestParams;
-import cunyun.zone.server.response.ResponseParams;
+import cunyun.zone.server.entity.web.ResponseParams;
 
 /**
  *  请求接口
@@ -17,7 +18,7 @@ public interface IRequestCommand {
 	 * @param params
 	 * @throws Exception
 	 */
-	ResponseParams execute(RequestParams params) throws Exception;
+	JsonResponseMsg execute(RequestParams params) throws Exception;
 	/**
 	 * 请求的发送之后
 	 * @throws Exception

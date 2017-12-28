@@ -1,8 +1,9 @@
 package cunyun.zone.server.mapper;
 
 import cunyun.zone.server.entity.CyUser;
+import org.apache.ibatis.annotations.Mapper;
 
-
+@Mapper
 public interface CyUserMapper {
 
 

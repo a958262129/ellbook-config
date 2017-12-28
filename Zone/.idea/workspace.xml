@@ -2,10 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="77040bb4-4db7-4366-af19-471b442a7ced" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/UserCommand" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/constant" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/UserCommand/FindUserFriendsCommand.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/constant/ConstantUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/Vo/BaseUserVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/Vo/PageVo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/ResponseParams.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/util/pageUtil.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/AccountMapper.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/application.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-archiver/pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/response" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/ella" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/ZoneApplication.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/client" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/client/Redis.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/mapper" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/mapper/AccountMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/response" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/classes/ella/user/server/response/ResponseParams.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/ellabook-server-user.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/ellabook-server-user.jar.original" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/generated-sources" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/generated-sources/annotations" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-archiver" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status/maven-compiler-plugin" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status/maven-compiler-plugin/compile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/cunyun-zone/target/maven-status/maven-compiler-plugin/compile/default-compile" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone" afterPath="$PROJECT_DIR$/cunyun-zone" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-server-center/pom.xml" afterPath="$PROJECT_DIR$/cunyun-server-center/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/cunyun-zone.iml" afterPath="$PROJECT_DIR$/cunyun-zone/cunyun-zone.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/pom.xml" afterPath="$PROJECT_DIR$/cunyun-zone/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/IRequestCommand.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/IRequestCommand.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerClickLogMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerClickLogMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicClassMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicClassMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityDetailMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityDetailMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityUserMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityUserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterAttsMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterAttsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterFabulousMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterFabulousMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterReplyMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterReplyMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteOptionMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteOptionMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteRecordMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteRecordMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserHobbieTopicMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserHobbieTopicMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteRecordMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteRecordMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteUrlMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteUrlMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMessageMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMessageMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerClickLogMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerClickLogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicClassMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicClassMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityDetailMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityDetailMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityUserMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterAttsMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterAttsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterFabulousMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterFabulousMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteOptionMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteOptionMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteRecordMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteRecordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserHobbieTopicMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserHobbieTopicMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteRecordMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteRecordMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteUrlMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteUrlMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMessageMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMessageMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserScoreRecodeMapper.xml" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserScoreRecodeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/resources/application.properties" />
     </list>
     <list id="9dcdedea-f3f5-48e8-a1b2-a1623df24dda" name="Failed commit: Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java" afterPath="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java" />
@@ -24,117 +102,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="CyTwitterReplyMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2403">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding>
-                <marker date="1514366157963" expanded="true" signature="4543:4702" ph="select , fro... " />
-                <marker date="1514366157963" expanded="true" signature="4789:4855" ph="delete from " />
-                <marker date="1514366157963" expanded="true" signature="4969:4997" ph="delete from " />
-                <marker date="1514366157963" expanded="true" signature="5188:5579" ph="insert into cy_twitter_reply... " />
-                <marker date="1514366157963" expanded="true" signature="7207:7244" ph="select count... cy_twitter_reply" />
-                <marker date="1514366157963" expanded="true" signature="8529:8987" ph="update cy_tw... " />
-                <marker date="1514366157963" expanded="true" signature="9160:9562" ph="update cy_tw... " />
-                <marker date="1514366157963" expanded="true" signature="9784:10562" ph="update cy_tw... " />
-                <marker date="1514366157963" expanded="true" signature="10681:11086" ph="update cy_tw... " />
-                <marker date="1514366157963" expanded="true" signature="11196:11552" ph="update cy_tw... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyBannerClickLog.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyBannerClickLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTopic.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTopic.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cunyun-zone/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CyUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cunyun-server-center/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="161" column="33" lean-forward="false" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
-              <folding>
-                <element signature="e#3312#3313#0" expanded="true" />
-                <element signature="e#3362#3363#0" expanded="true" />
-                <element signature="e#3406#3407#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTopicClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTopicClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTwitter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTwitterActivityDetail.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterActivityDetail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTwitterActivityUser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterActivityUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyTwitterAtts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterAtts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-411">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CyBanner.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyBanner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="675">
+              <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -146,6 +129,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -153,6 +137,8 @@
     <findStrings>
       <find>Example</find>
       <find>is</find>
+      <find>CyBannerClickLogExample</find>
+      <find>redis</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -163,15 +149,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/JsonResponseMsg.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/EllaBookController.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/cunyun-zone/pom.xml" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/RequestParams.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/IRequestCommand.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/RequestParamsParse.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/RequestParamsParse.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerClickLogMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicClassMapper.java" />
@@ -184,14 +163,43 @@
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterReplyMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteOptionMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteRecordMapper.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserHobbieTopicMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteRecordMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteUrlMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMapper.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java" />
         <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMessageMapper.java" />
-        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/Vo/BaseUserVo.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/util/pageUtil.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/constant/ConstantUtil.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/service/OrderManageService.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerClickLogMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicClassMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityDetailMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityUserMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterAttsMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterFabulousMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteOptionMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserHobbieTopicMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteRecordMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteUrlMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMessageMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserScoreRecodeMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/pom.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/service/UserService.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/IRequestCommand.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml" />
+        <option value="$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/UserCommand/FindUserFriendsCommand.java" />
+        <option value="$PROJECT_DIR$/cunyun-server-center/pom.xml" />
       </list>
     </option>
   </component>
@@ -207,6 +215,44 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="ellabook-server-center" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cunyun-zone" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="cunyun-zone" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -229,6 +275,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,7 +409,147 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserCommand" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,16 +576,88 @@
               <option name="myItemId" value="Zone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-server-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-server-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cunyun-server-center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="center" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Zone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cunyun-server-center" />
     <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -410,8 +670,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cunyun.zone.server.entity" />
-      <recent name="cunyun.zone.server.controller" />
+      <recent name="cunyun.zone.server.command.UserCommand" />
+      <recent name="cunyun.zone.server.constant" />
+      <recent name="cunyun.zone.server.util" />
+      <recent name="cunyun.zone.server.service" />
+      <recent name="cunyun.zone.server.entity.Vo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\idea\Zone\cunyun-zone\src\main\java\cunyun\zone\server\entity" />
@@ -420,117 +683,7 @@
       <recent name="D:\idea\Zone\cunyun-zone\src\main\java\cunyun\zone\server\command" />
     </key>
   </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        <PATH vcs="svn" revision="25">D:\idea\Zone\cunyun-zone</PATH>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
-  </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication">
+  <component name="RunManager" selected="Maven.package--center">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -847,6 +1000,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -911,6 +1086,54 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="package--zone" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cunyun-zone" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="false" name="package--center" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/cunyun-server-center" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ellabook.center.EurekaApplication" />
@@ -921,13 +1144,16 @@
     <configuration default="false" name="ZoneApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cunyun.zone.server.ZoneApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <module name="cunyun-zone" />
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Spring Boot.ZoneApplication" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Maven.package--zone" />
+      <item index="1" class="java.lang.String" itemvalue="Maven.package--center" />
+      <item index="2" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Spring Boot.ZoneApplication" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -941,20 +1167,24 @@
     <option name="myMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\idea\Zone" />
-          <option name="myCopyRoot" value="D:\idea\Zone" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone" />
         </SvnCopyRootSimple>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\idea\Zone\cunyun-server-center" />
-          <option name="myCopyRoot" value="D:\idea\Zone\cunyun-server-center" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone\cunyun-server-center" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone\cunyun-server-center" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone\cunyun-zone" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone\cunyun-zone" />
         </SvnCopyRootSimple>
       </list>
     </option>
     <option name="myMoreRealMappingRoots">
       <list>
         <SvnCopyRootSimple>
-          <option name="myVcsRoot" value="D:\idea\Zone" />
-          <option name="myCopyRoot" value="D:\idea\Zone" />
+          <option name="myVcsRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone" />
+          <option name="myCopyRoot" value="C:\Users\Administrator\Documents\GitHub\ellbook-config\Zone" />
         </SvnCopyRootSimple>
       </list>
     </option>
@@ -968,6 +1198,7 @@
       <updated>1514345735579</updated>
       <workItem from="1514345740852" duration="132000" />
       <workItem from="1514345914134" duration="11208000" />
+      <workItem from="1514429655867" duration="8976000" />
     </task>
     <task id="LOCAL-00001">
       <created>1514367955125</created>
@@ -987,7 +1218,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11340000" />
+    <option name="totallyTimeSpent" value="20316000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -999,13 +1230,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172706" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1015,25 +1246,25 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25266525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2553305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1056,7 +1287,338 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/RequestCommandContainer.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterReplyMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteOptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserHobbieTopicMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteRecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteUrlMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMessageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="7" lean-forward="false" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2646">
+          <caret line="140" column="0" lean-forward="true" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#3279#3280#0" expanded="false" />
+            <element signature="e#3312#3313#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUserFriends.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/util/pageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/JsonResponseMsg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-server-center/src/main/java/com/ellabook/center/EurekaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/ZoneApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="28" column="28" lean-forward="false" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerClickLogMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerClickLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicClassMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityDetailMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterActivityUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterAttsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterFabulousMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="2" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteOptionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterVoteRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserHobbieTopicMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteRecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserInviteUrlMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserMessageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserScoreRecodeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyBanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="true" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-server-center/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1067,396 +1629,105 @@
     <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <caret line="19" column="43" lean-forward="false" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/constant/ConstantUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="89" column="21" lean-forward="false" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="135">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/client/Redis.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/RequestCommandContainer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="199">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/IRequestCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="24" column="18" lean-forward="false" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/RequestParams.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/RequestParamsParse.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/Vo/BaseUserVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/web/JsonResponseMsg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
-          <folding>
-            <element signature="e#684#685#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/E.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerClickLogMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding>
-            <marker date="1514365690021" expanded="true" signature="3696:3811" ph="select from cy_banner_click_log" />
-            <marker date="1514365690021" expanded="true" signature="3898:3967" ph="delete from " />
-            <marker date="1514365690021" expanded="true" signature="4083:4114" ph="delete from " />
-            <marker date="1514365690021" expanded="true" signature="4307:4607" ph="insert into cy_banner_click_log... " />
-            <marker date="1514365690021" expanded="true" signature="5914:5954" ph="select count... cy_banner_click_log" />
-            <marker date="1514365690021" expanded="true" signature="6992:7331" ph="update cy_ba... " />
-            <marker date="1514365690021" expanded="true" signature="7555:8123" ph="update cy_ba... " />
-            <marker date="1514365690021" expanded="true" signature="8235:8535" ph="update cy_ba... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyBannerMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-378">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding>
-            <marker date="1514365656766" expanded="true" signature="4815:4980" ph="select , fro... " />
-            <marker date="1514365656766" expanded="true" signature="5066:5138" ph="delete from " />
-            <marker date="1514365656766" expanded="true" signature="5246:5267" ph="delete from " />
-            <marker date="1514365656766" expanded="true" signature="5461:6039" ph="insert into cy_banner... " />
-            <marker date="1514365656766" expanded="true" signature="8133:8163" ph="select count... cy_banner" />
-            <marker date="1514365656766" expanded="true" signature="9799:10458" ph="update cy_ba... " />
-            <marker date="1514365656766" expanded="true" signature="10631:10952" ph="update cy_ba... " />
-            <marker date="1514365656766" expanded="true" signature="11177:12272" ph="update cy_ba... " />
-            <marker date="1514365656766" expanded="true" signature="12394:12986" ph="update cy_ba... " />
-            <marker date="1514365656766" expanded="true" signature="13090:13379" ph="update cy_ba... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerClickLogMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyBannerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicClassMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTopicMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterActivityUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-60">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterAttsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterFabulousMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterReplyMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteOptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyTwitterVoteRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserFriendsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserHobbieTopicMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteRecordMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="351">
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserInviteUrlMapper.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/controller/CommandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="592">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMessageMapper.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/Vo/PageVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserScoreRecodeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/mapper/CyUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTopicMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="55" column="31" lean-forward="false" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        <state relative-caret-position="408">
+          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
-            <marker date="1514365759921" expanded="true" signature="3602:3717" ph="select from cy_topic" />
-            <marker date="1514365759921" expanded="true" signature="3803:3872" ph="delete from " />
-            <marker date="1514365759921" expanded="true" signature="3979:3999" ph="delete from " />
-            <marker date="1514365759921" expanded="true" signature="4183:4436" ph="insert into cy_topic... " />
-            <marker date="1514365759921" expanded="true" signature="5598:5627" ph="select count... cy_topic" />
-            <marker date="1514365759921" expanded="true" signature="6570:6862" ph="update cy_to... " />
-            <marker date="1514365759921" expanded="true" signature="7077:7559" ph="update cy_to... " />
-            <marker date="1514365759921" expanded="true" signature="7662:7922" ph="update cy_to... " />
+            <element signature="e#1162#1163#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/response/ResponseParams.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyTwitterReplyMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2403">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        <state relative-caret-position="403">
+          <caret line="37" column="27" lean-forward="true" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
           <folding>
-            <marker date="1514366157963" expanded="true" signature="4543:4702" ph="select , fro... " />
-            <marker date="1514366157963" expanded="true" signature="4789:4855" ph="delete from " />
-            <marker date="1514366157963" expanded="true" signature="4969:4997" ph="delete from " />
-            <marker date="1514366157963" expanded="true" signature="5188:5579" ph="insert into cy_twitter_reply... " />
-            <marker date="1514366157963" expanded="true" signature="7207:7244" ph="select count... cy_twitter_reply" />
-            <marker date="1514366157963" expanded="true" signature="8529:8987" ph="update cy_tw... " />
-            <marker date="1514366157963" expanded="true" signature="9160:9562" ph="update cy_tw... " />
-            <marker date="1514366157963" expanded="true" signature="9784:10562" ph="update cy_tw... " />
-            <marker date="1514366157963" expanded="true" signature="10681:11086" ph="update cy_tw... " />
-            <marker date="1514366157963" expanded="true" signature="11196:11552" ph="update cy_tw... " />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterAtts.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/resources/SQLMapper/CyUserFriendsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyBannerClickLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTopicClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterActivityDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTwitterActivityUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyTopic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="161" column="33" lean-forward="false" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+        <state relative-caret-position="351">
+          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
           <folding>
-            <element signature="e#3312#3313#0" expanded="true" />
-            <element signature="e#3362#3363#0" expanded="true" />
-            <element signature="e#3406#3407#0" expanded="true" />
+            <marker date="1514446056516" expanded="true" signature="284:559" ph="SELECT id, u... cy_user_friends" />
+            <marker date="1514446056516" expanded="true" signature="646:780" ph="SELECT id, u... cy_user_friends" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/entity/CyBanner.java">
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/src/main/java/cunyun/zone/server/command/UserCommand/FindUserFriendsCommand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="5">
+          <caret line="30" column="78" lean-forward="true" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-zone/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cunyun-server-center/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="28" column="40" lean-forward="true" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
           <folding />
         </state>
       </provider>

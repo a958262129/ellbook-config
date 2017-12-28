@@ -1,7 +1,10 @@
 package cunyun.zone.server.mapper;
 
 import cunyun.zone.server.entity.CyTwitterAtts;
+import org.apache.ibatis.annotations.Mapper;
 
+
+@Mapper
 public interface CyTwitterAttsMapper {
 
 
